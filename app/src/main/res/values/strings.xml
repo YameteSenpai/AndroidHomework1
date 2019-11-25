@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">Weather</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="temperature">Temperature: </string>
+    <string name="feels_like">feels like: </string>
+    <string name="photo_of_a_city">Photo of a city</string>
+    <string name="degree">°F</string>
+    <string-array name="cities_array">
+        <item>Moscow</item>
+        <item>Saint-Petersburg</item>
+        <item>Kazan</item>
+    </string-array>
+    <string-array name="cities_array_val" translatable="false">
+        <item>mos</item>
+        <item>spb</item>
+        <item>kzn</item>
+    </string-array>
+</resources>

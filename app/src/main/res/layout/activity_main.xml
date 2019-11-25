@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#B2DFDB">
+
+    <Spinner
+        android:id="@+id/citiesSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#E0F2F1"
+
+        />
+
+    <ImageView
+        android:id="@+id/cityImage"
+        android:contentDescription="@string/photo_of_a_city"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/temperature"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"/>
+
+        <TextView
+            android:id="@+id/temperatureTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textAlignment="textEnd"
+            android:textSize="40sp"
+            tools:text="-5"
+            android:textColor="#004D40"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/degree"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"
+            android:text="@string/feels_like"
+            android:textAlignment="textEnd"/>
+
+        <TextView
+            android:id="@+id/feelsLikeTempTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textAlignment="textEnd"
+            android:textSize="30sp"
+            android:textColor="#004D40"
+            tools:text="-10" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/degree"
+            android:textSize="20sp"
+            android:gravity="start"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/todayBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/today"
+            android:layout_gravity="bottom"/>
+
+        <Button
+            android:id="@+id/tomorrowBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tomorrow"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+</LinearLayout>

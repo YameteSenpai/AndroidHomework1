@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="today">Сегодня</string>
+<string name="tomorrow">Завтра</string>
+<string name="temperature">Температура: </string>
+<string name="feels_like">чувствуется как: </string>
+    <string name="degree">°C</string>
+<string name="photo_of_a_city">Фотография города</string>
+<string-array name="cities_array">
+    <item>Москва</item>
+    <item>Санкт-Петербург</item>
+    <item>Казань</item>
+</string-array>
+</resources>
